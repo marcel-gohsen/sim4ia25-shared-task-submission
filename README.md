@@ -54,6 +54,14 @@ In Task A, the dataset also includes metadata about user interactions, including
 
 [Predetermined Queries for Task A](./simiir/predetermined_queries_Task_A.csv)
 
+--- 
+
+**🚨 NEW FINAL TEST DATA RELEASED FOR TASK A & TASK B! 🚨**  
+*Please adjust your file paths accordingly to use the updated data.*
+
+- 🔗 **[Final Test Data for Task A](./simiir/predetermined_queries_Task_A_test.csv)**
+- 🔗 **[Final Test Data for Task B](./example_data/predetermined_utterances_test.json)**
+
 ##  How to do the experiments?
 
 Detailed task descriptions for Task A and Task B are available on the [workshop website](https://sim4ia.org/sigir2025/). To run initial experiments for these tasks, follow the steps outlined below.
