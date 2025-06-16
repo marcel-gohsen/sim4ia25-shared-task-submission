@@ -145,6 +145,59 @@ Replace `gemma:2b` with the name of the model you installed.
 python run_simiir.py ../example_sims/core_bm25_Sim4IA_LLM_approach.xml 
 
 ```
+# Submission Guideline
+
+We ask all participants of the shared task to submit the following
+- run files containing their generated queries
+- a lab note that contains a short summary of the approach and some outlooks
+- a link to code and data (optional)
+
+### Run files
+Please submit all your run files, regardless of the task, in the following JSON format:
+
+```json
+{
+  "meta": {
+    "team_name": "",
+    "approach_description": "",
+    "task": "",
+    "run_name": ""
+  },
+  "1": [
+    "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"
+  ],
+  "2": [
+    "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"
+  ],
+  "...": [
+    "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"
+  ],
+  "45": [
+    "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"
+  ]
+}
+```
+Each key represents a topic ID. The corresponding list contains 10 candidate queries, sorted in **descending order by their estimated probability of success** (i.e., the most promising query comes first). Each run must be submitted as a separate file for each task (A1, A2, B). While there is no strict naming convention for the submitted run files, please ensure that the meta field in each respective JSON run file is properly filled out.
+- **team_name**: Can be freely chosen.
+- **approach_description**: Provide a brief summary of the underlying approach.
+- **task**: Must follow one of the following formats: Task_A1, Task_A2, or Task_B.
+- **run_name**: Should be meaningful and align with the naming used in your lab notes, though it can still be chosen individually.
+
+### Lab Notes (1 page, no formatting requirements)
+Please also submit a one-page lab note that explains your approach, answering the following questions:
+- **How does your approach work?** Briefly describe your pipeline, model(s), or heuristics.
+- **What was the underlying idea behind your approach?** Explain your motivation and design decisions.
+- **Future of Evaluation in Interactive Retrieval.** Based on your experience with this micro shared task, the report should also include your perspective on future evaluation settings in interactive retrieval.
+
+### Submission process
+Please submit your run files by **June 27**. The **lab notes** must be submitted by **July 4**. Submission will be handled via EasyChair: https://easychair.org/conferences/?conf=sim4ia-sigir2025.
+
+If you are submitting multiple run files, please **combine them into a single** .zip archive. When submitting your run files, please **include a link to your public GitHub repository** containing the corresponding code by adding the link to the repo in the **EasyChair submission form**.
+
+### Availability of the submissions / post-workshop proceedings
+Before the workshop, we will share **lab notes internally** among all participants who submitted a run to the workshop. They will **not be published publicly**.
+
+After the workshop, we plan to compile a dataset on **Zenodo**, which will include the submitted run files, scripts, and the provided datasets. We ask all participants to submit an extended version of their lab papers from which we will compile post-workshop proceedings, most likely to be submitted to CEUR. 
 
 
 ## License
