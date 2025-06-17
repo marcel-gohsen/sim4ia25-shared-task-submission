@@ -10,8 +10,8 @@ This prototype is build upon the implementation of the [SimIIR3 Framework](https
 # Submission Guideline
 
 We ask all participants of the shared task to submit the following
-- run files containing their generated queries
-- a lab note that contains a short summary of the approach and some outlooks
+- [run files](https://github.com/sim4ia/sigir2025-shared-task?tab=readme-ov-file#run-files) containing their generated queries
+- a [lab note](https://github.com/sim4ia/sigir2025-shared-task?tab=readme-ov-file#lab-notes-1-page-no-formatting-requirements) that contains a short summary of the approach and some outlooks
 - a link to code and data (optional)
 
 ### Run files
