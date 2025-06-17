@@ -54,7 +54,7 @@ Please also submit a one-page lab note that explains your approach, answering th
 ### Submission process
 Please submit your run files by **June 27**. The **lab notes** must be submitted by **July 4**. Submission will be handled via EasyChair: https://easychair.org/conferences/?conf=sim4ia-sigir2025.
 
-If you are submitting multiple run files, please **combine them into a single** .zip archive. When submitting your run files, please **include a link to your public GitHub repository** containing the corresponding code by adding the link to the repo in the **EasyChair submission form**.
+If you are submitting multiple run files, please bundle them into **a single .zip file** and upload it, together with the corresponding code, to a **public GitHub repository**. In the **EasyChair submission form**, submit a text file that includes a **link to your GitHub repository** and a **direct link to the .zip file** containing the run files.
 
 ### Availability of the submissions / post-workshop proceedings
 Before the workshop, we will share **lab notes internally** among all participants who submitted a run to the workshop. They will **not be published publicly**.
