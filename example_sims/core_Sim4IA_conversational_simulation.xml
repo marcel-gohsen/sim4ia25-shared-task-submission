@@ -77,7 +77,7 @@ Date:   2024-04-20
 	</users>
 
 	<searchInterface class="FileBasedConversationalInterface">
-		<attribute name="path_to_predefined_responses" type="string" value="../example_data/predetermined_utterance_response_pairs.json" is_argument="true" />
+		<attribute name="path_to_predefined_responses" type="string" value="../example_data/predetermined_utterance_response_pairs_test.json" is_argument="true" />
 	</searchInterface>
 
 
