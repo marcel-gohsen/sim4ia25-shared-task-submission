@@ -130,9 +130,9 @@ def get_given_queries(
     queries_file.close()
 
     if task_a2:
-        return given_queries[:-1]
+        return given_queries
     else:
-        return [given_queries[-2]]
+        return [given_queries[-1]]
 
 
 if __name__ == "__main__":
