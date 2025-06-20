@@ -12,7 +12,7 @@ Date:   2024-04-20
 		<attribute name="prompt_file" type="string" value="../example_data/prompts/default_utterance_generator.txt" is_argument="true" />
 		<attribute name="provider" type="string" value="ollama" is_argument="true" />
 		<attribute name="model" type="string" value="gemma:2b" is_argument="true" />
-        <attribute  name="path_to_predefined_utterances" type="string" value="../example_data/predetermined_utterances.json" is_argument="true" />
+        <attribute  name="path_to_predefined_utterances" type="string" value="../example_data/predetermined_utterances_test.json" is_argument="true" />
     </utteranceGenerator>
 
     <csrpImpression class="BaseCSRPImpression">
