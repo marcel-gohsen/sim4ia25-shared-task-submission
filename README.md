@@ -66,7 +66,7 @@ After the workshop, we plan to compile a dataset on **Zenodo**, which will inclu
 1. Open the GitHub Repository in [Codespaces](https://github.com/features/codespaces)
 2. Download the Index from Sciebo using the following command in the Codespaces terminal:
 ```shell
-curl -L -o index_CORE.zip "https://th-koeln.sciebo.de/s/F9AEa1CXyk2RTpf/download"
+curl -L -o index_CORE.zip "https://th-koeln.sciebo.de/s/8m0j6KWAd48C8Wy/download"
 ```
 3. Unzip the downloaded index `example_data/index_CORE.zip` file into the `example_data/index_CORE` directory using the following command in the Codespaces terminal:
 ```shell
