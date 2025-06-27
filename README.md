@@ -52,7 +52,7 @@ Please also submit a one-page lab note that explains your approach, answering th
 - **Future of Evaluation in Interactive Retrieval.** Based on your experience with this micro shared task, the report should also include your perspective on future evaluation settings in interactive retrieval.
 
 ### Submission process
-Please submit your run files by **June 27**. The **lab notes** must be submitted by **July 4**. Submission will be handled via EasyChair: https://easychair.org/conferences/?conf=sim4ia-sigir2025.
+Please submit your run files by **~June 27~ July 4**. The **lab notes** must be submitted by **July 4**. Submission will be handled via EasyChair: https://easychair.org/conferences/?conf=sim4ia-sigir2025.
 
 If you are submitting multiple run files, please bundle them into **a single .zip file** and upload it, together with the corresponding code, to a **public GitHub repository**. In the **EasyChair submission form**, submit a **link to your GitHub repository**.
 
